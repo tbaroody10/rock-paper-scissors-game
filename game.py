@@ -20,7 +20,21 @@ print("Computer chose:")
 print(computer_choice)
 
 
-breakpoint()
+
+if (computer_choice == user_choice) :
+    print("TIE")
+elif ((user_choice == "rock") and (computer_choice == "scissors")) :
+    print("TESS WINS")
+elif ((user_choice == "scissors") and (computer_choice == "rock")) :
+    print("COMPUTER WINS")
+elif ((user_choice == "rock") and (computer_choice == "paper")) :
+    print("TESS WINS")
+elif ((user_choice == "paper") and (computer_choice == "rock")) :
+    print("COMPUTER WINS")
+elif ((user_choice == "scissors") and (computer_choice == "paper")) :
+    print("TESS WINS")
+elif ((user_choice == "paper") and (computer_choice == "scissors")) :
+    print("COMPUTER WINS")
 
 
 print("THANKS PLEASE PLAY AGAIN")
